@@ -50,7 +50,7 @@ freeze_proof_suit = 400 #Price of the freeze proof suit
 tent = 20 #Price of the tent 
 #Program calculation using variables 
 total_cost = (pencil+knife+bat+human_arm+torch+water+cell_phone+oxygen_tank+flashlight+shield+fire_proof_suit+freeze_proof_suit+tent)
-print("The total cost of the inventory items required is:)
+print("The total cost of the inventory items required is:")
 print(total_cost)
 
 
