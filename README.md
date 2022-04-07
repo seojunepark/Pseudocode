@@ -35,22 +35,22 @@ print(cmessageone)
 print(cmessagetwo)
 print(cmessagethree)
 #Assigning variables for the program
-pencil = 10 #Price of the pencil 
-knife = 20 #Price of the knife 
-bat = 20 #Price of the bat 
-human_arm = 5000 #Price of the human arm 
-torch =  30 #Price of the torch 
-water = 0 #Price of the water 
-cell_phone = 500 #Price of the cell phone 
-oxygen_tank = 150 #Price of the oxygen tank 
-flashlight = 20 #Price of the flashlight 
-shield = 300 #Price of the shield 
-fire_proof_suit = 400 #Price of the fire proof suit 
-freeze_proof_suit = 400 #Price of the freeze proof suit 
-tent = 20 #Price of the tent 
+pencil = 10 #Price of the pencil in dollars 
+knife = 20 #Price of the knife in dollars 
+bat = 20 #Price of the bat in dollars 
+human_arm = 5000 #Price of the human arm in dollars  
+torch =  30 #Price of the torch in dollars 
+water = 0 #Price of the water in dollars 
+cell_phone = 500 #Price of the cell phone in dollars 
+oxygen_tank = 150 #Price of the oxygen tank in dollars
+flashlight = 20 #Price of the flashlight in dollars 
+shield = 300 #Price of the shield in dollars
+fire_proof_suit = 400 #Price of the fire proof suit in dollars  
+freeze_proof_suit = 400 #Price of the freeze proof suit in dollars 
+tent = 20 #Price of the tent in dollars 
 #Program calculation using variables 
 total_cost = (pencil+knife+bat+human_arm+torch+water+cell_phone+oxygen_tank+flashlight+shield+fire_proof_suit+freeze_proof_suit+tent)
-print("The total cost of the inventory items required is:")
-print(total_cost)
+print("The total cost of the inventory items required is: $",format(total_cost,",.2f"))
+
 
 
